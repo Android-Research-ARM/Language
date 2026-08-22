@@ -1,14 +1,11 @@
-<div align="center">
-### 🌐 Languages / Langues / Idiomas / 语言 / لغات
+# ជួយបកប្រែ ARAS
+
 [🇦🇪 العربية](../ar/README.md) • [🇩🇪 Deutsch](../de/README.md) • [🇺🇸 English](../../README.md) • [🇪🇸 Español](../es/README.md) • [🇵🇭 Filipino](../fil/README.md) • [🇫🇷 Français](../fr/README.md)  
 [🇮🇳 हिन्दी](../hi/README.md) • [🇮🇩 Bahasa Indonesia](../id/README.md) • [🇮🇹 Italiano](../it/README.md) • **[🇰🇭 ខ្មែរ](../km/README.md)** • [🇰🇷 한국어](../ko/README.md) • [🇲🇾 Bahasa Melayu](../ms/README.md)  
 [🇳🇱 Nederlands](../nl/README.md) • [🇵🇱 Polski](../pl/README.md) • [🇧🇷 Português (Brasil)](../pt-BR/README.md) • [🇷🇴 Română](../ro/README.md) • [🇷🇺 Русский](../ru/README.md) • [🇱🇰 සිංහල](../si/README.md)  
 [🇹🇷 Türkçe](../tr/README.md) • [🇺🇦 Українська](../uk/README.md) • [🇵🇰 اردو](../ur/README.md) • [🇻🇳 Tiếng Việt](../vi/README.md) • [🇨🇳 简体中文](../zh-Hans/README.md)  
 
-</div>
-
 ---
-# ជួយបកប្រែ ARAS
 
 ARAS ត្រូវបានបកប្រែដោយសមាជិកនៃសហគមន៍របស់យើង។ ប្រសិនបើអ្នកចេះភាសាផ្សេងទៀត អ្នកអាចជួយធ្វើឱ្យ ម៉ឺនុយ ប៊ូតុង និងសារផ្សេងៗមានលក្ខណៈធម្មជាតិ និងងាយយល់សម្រាប់អ្នកប្រើប្រាស់កាន់តែច្រើន។
 

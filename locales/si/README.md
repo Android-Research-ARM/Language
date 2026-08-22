@@ -1,14 +1,11 @@
-<div align="center">
-### 🌐 Languages / Langues / Idiomas / 语言 / لغات
+# ARAS පරිවර්තනය කිරීමට සහාය වන්න
+
 [🇦🇪 العربية](../ar/README.md) • [🇩🇪 Deutsch](../de/README.md) • [🇺🇸 English](../../README.md) • [🇪🇸 Español](../es/README.md) • [🇵🇭 Filipino](../fil/README.md) • [🇫🇷 Français](../fr/README.md)  
 [🇮🇳 हिन्दी](../hi/README.md) • [🇮🇩 Bahasa Indonesia](../id/README.md) • [🇮🇹 Italiano](../it/README.md) • [🇰🇭 ខ្មែរ](../km/README.md) • [🇰🇷 한국어](../ko/README.md) • [🇲🇾 Bahasa Melayu](../ms/README.md)  
 [🇳🇱 Nederlands](../nl/README.md) • [🇵🇱 Polski](../pl/README.md) • [🇧🇷 Português (Brasil)](../pt-BR/README.md) • [🇷🇴 Română](../ro/README.md) • [🇷🇺 Русский](../ru/README.md) • **[🇱🇰 සිංහල](../si/README.md)**  
 [🇹🇷 Türkçe](../tr/README.md) • [🇺🇦 Українська](../uk/README.md) • [🇵🇰 اردو](../ur/README.md) • [🇻🇳 Tiếng Việt](../vi/README.md) • [🇨🇳 简体中文](../zh-Hans/README.md)  
 
-</div>
-
 ---
-# ARAS පරිවර්තනය කිරීමට සහාය වන්න
 
 ARAS අපගේ ප්‍රජාව විසින් පරිවර්තනය කරනු ලැබේ. ඔබට වෙනත් භාෂාවක් හැසිරවිය හැකි නම්, මෙනු, බොත්තම් සහ පණිවිඩ වඩාත් ස්වාභාවික හා පැහැදිලි කිරීමට ඔබට දායක විය හැක.
 

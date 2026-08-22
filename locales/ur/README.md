@@ -1,14 +1,11 @@
-<div align="center">
-### 🌐 Languages / Langues / Idiomas / 语言 / لغات
+# ARAS کے ترجمے میں مدد کریں
+
 [🇦🇪 العربية](../ar/README.md) • [🇩🇪 Deutsch](../de/README.md) • [🇺🇸 English](../../README.md) • [🇪🇸 Español](../es/README.md) • [🇵🇭 Filipino](../fil/README.md) • [🇫🇷 Français](../fr/README.md)  
 [🇮🇳 हिन्दी](../hi/README.md) • [🇮🇩 Bahasa Indonesia](../id/README.md) • [🇮🇹 Italiano](../it/README.md) • [🇰🇭 ខ្មែរ](../km/README.md) • [🇰🇷 한국어](../ko/README.md) • [🇲🇾 Bahasa Melayu](../ms/README.md)  
 [🇳🇱 Nederlands](../nl/README.md) • [🇵🇱 Polski](../pl/README.md) • [🇧🇷 Português (Brasil)](../pt-BR/README.md) • [🇷🇴 Română](../ro/README.md) • [🇷🇺 Русский](../ru/README.md) • [🇱🇰 සිංහල](../si/README.md)  
 [🇹🇷 Türkçe](../tr/README.md) • [🇺🇦 Українська](../uk/README.md) • **[🇵🇰 اردو](../ur/README.md)** • [🇻🇳 Tiếng Việt](../vi/README.md) • [🇨🇳 简体中文](../zh-Hans/README.md)  
 
-</div>
-
 ---
-# ARAS کے ترجمے میں مدد کریں
 
 ARAS ہماری کمیونٹی کے ارکان کے ذریعے ترجمہ کیا جاتا ہے۔ اگر آپ اردو بولتے ہیں تو آپ اس کے مینیوز، بٹنز اور پیغامات کو مزید صارفین کے لیے قدرتی اور آسان بنانے میں مدد کر سکتے ہیں۔
 

@@ -1,14 +1,11 @@
-<div align="center">
-### 🌐 Languages / Langues / Idiomas / 语言 / لغات
+# ARAS 번역 돕기
+
 [🇦🇪 العربية](../ar/README.md) • [🇩🇪 Deutsch](../de/README.md) • [🇺🇸 English](../../README.md) • [🇪🇸 Español](../es/README.md) • [🇵🇭 Filipino](../fil/README.md) • [🇫🇷 Français](../fr/README.md)  
 [🇮🇳 हिन्दी](../hi/README.md) • [🇮🇩 Bahasa Indonesia](../id/README.md) • [🇮🇹 Italiano](../it/README.md) • [🇰🇭 ខ្មែរ](../km/README.md) • **[🇰🇷 한국어](../ko/README.md)** • [🇲🇾 Bahasa Melayu](../ms/README.md)  
 [🇳🇱 Nederlands](../nl/README.md) • [🇵🇱 Polski](../pl/README.md) • [🇧🇷 Português (Brasil)](../pt-BR/README.md) • [🇷🇴 Română](../ro/README.md) • [🇷🇺 Русский](../ru/README.md) • [🇱🇰 සිංහල](../si/README.md)  
 [🇹🇷 Türkçe](../tr/README.md) • [🇺🇦 Українська](../uk/README.md) • [🇵🇰 اردو](../ur/README.md) • [🇻🇳 Tiếng Việt](../vi/README.md) • [🇨🇳 简体中文](../zh-Hans/README.md)  
 
-</div>
-
 ---
-# ARAS 번역 돕기
 
 ARAS는 커뮤니티 구성원들의 자발적인 참여로 번역됩니다. 다른 언어를 구사할 수 있다면, 메뉴, 버튼, 알림 메시지가 더 많은 사람들에게 자연스럽고 편안하게 전달되도록 도울 수 있습니다.
 

@@ -3,9 +3,6 @@
 Thank you for helping translate ARAS. You can contribute entirely through the GitHub
 website; no programming tools are required.
 
-> [!TIP]
-> Prefer to read this guide in your own language? Check the [Language Directory](README.md#️-community-language-directory) in `README.md`.
-
 ## Before editing
 
 - Check that you opened the correct language file.

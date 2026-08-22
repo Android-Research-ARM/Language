@@ -3,9 +3,6 @@
 The ARAS translation community welcomes contributors of every language, region, identity,
 background, and experience level.
 
-> [!TIP]
-> Localized versions of this Code of Conduct are available in each language folder under [`locales/`](README.md#️-community-language-directory).
-
 ## Expected behavior
 
 - Be respectful, patient, and constructive.
