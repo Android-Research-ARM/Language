@@ -1,48 +1,113 @@
-# ARAS Language / Localization
+# Help Translate ARAS
 
-Community translations live here. These JSON files are the application's authoritative
-localization source. The build validates them and generates the private macOS resource
-layout under `Build/`; contributors never need access to application source or assets.
+ARAS is translated by people in our community. If you speak another language, you can
+help make its menus, buttons, and messages feel natural to more people.
 
-Each language is a single JSON file named with a BCP-47 language code (for example
-`en.json`, `fr.json`, `pt-BR.json`, or `zh-Hans.json`).
+You do not need programming experience, special software, or access to the ARAS source
+code. Everything can be done on GitHub in your web browser.
 
-## What to translate
+## Ways to help
 
-Only **user-facing strings** are included — menus, alerts, settings, error messages,
-device manager UI, keymap editor, remote pairing, and privacy descriptions.
+- Add a language that is not listed yet
+- Finish text that is still written in English
+- Correct spelling or grammar
+- Make wording sound more natural
+- Improve consistency between menus and messages
+- Review a translation submitted by another speaker
 
-Build scripts, developer tools, and internal diagnostics are intentionally excluded.
+Small improvements are welcome. You do not need to translate an entire language at once.
 
-## How to add a language
+## Edit an existing language
 
-1. Copy `en.json` to `<your-code>.json` and use a valid BCP-47 code for the filename.
-2. Set `_meta.code` and `_meta.language`, then translate every value in `strings`.
-3. Validate your JSON:
-   ```sh
-   Scripts/generate-localizations.py --source Language --output Build/Generated/Localizations
-   ```
-4. Open a pull request.
+1. Find your language in the list of `.json` files. For example, French is `fr.json` and
+   Brazilian Portuguese is `pt-BR.json`.
+2. Open the file and click the pencil-shaped **Edit this file** button.
+3. Change only the translated text on the right side of each pair.
+4. Click **Preview changes** and review your edits.
+5. Click **Propose changes** and open a pull request.
 
-## Rules
+For example:
 
-- **Do not change keys.** They are the exact English fallback text used by the app.
-- **Keep `%@`, `%s`, `%ld`, `%.1f`** format specifiers in the same position.
-- **Keep `${VAR}`** shell/format variables untouched.
-- **Keep `✓`, `✕`, `⚠`, `↑↓`, `⏎`, `⌥`, `＋`** symbols if your font supports them.
-- **Preserve `\n`** — they are intentional line breaks.
-- **One file per language.** No sub-directories or executable content.
-- Every language must contain the same keys as `en.json`; the validator reports omissions.
-- A new or unfinished translation may temporarily use the English value for a key.
+```json
+"Cancel": "Annuler"
+```
 
-## File format
+`Cancel` on the left is the original English text. `Annuler` on the right is the French
+translation. Change the right side only.
 
-`_meta` contains only the language code and the language's native display name. `strings`
-maps the exact English text to its translation. English therefore maps every key to itself.
+## Request a new language
 
-## Notes for translators
+Open an issue and tell us:
 
-- Error messages should be clear and actionable where possible.
-- Technical terms (QEMU, ADB, QCOW2, GiB, etc.) should generally not be translated.
-- Product name "ARAS" must not be translated.
-- Keep translations concise — menu items have limited space.
+- The language name
+- The country or region, if the wording varies by region
+- The name of the language written in that language
+- Whether you can translate or review it
+
+A maintainer will prepare the new language file for you. You can then translate it using
+GitHub's **Edit this file** button. You do not need to create or rename files yourself.
+
+## Important translation tips
+
+- Keep `ARAS` unchanged. It is the product name.
+- Usually keep names such as Android, macOS, Mac, ProMotion, and Adreno unchanged.
+- Keep technical abbreviations such as ADB, QEMU, QCOW2, DPI, FPS, and GiB unchanged.
+- Write naturally for people who speak your language. Do not translate word for word when
+  that would sound awkward.
+- Keep menu and button text short.
+- Use the same translation each time words such as “device,” “settings,” “storage,” and
+  “update” appear.
+- Warnings about deleting or resetting data must remain clear and serious.
+- Leave uncertain text in English and ask for help in your pull request.
+- Machine translation can help with a first draft, but a fluent speaker should check it.
+- Never add advertisements, links, personal information, or unrelated messages.
+
+Some text contains special markers such as `%@`, `%ld`, `%s`, `%.1f`, or `\n`. Leave them
+exactly as written. ARAS replaces them with a name, number, error detail, or line break.
+
+```json
+"Delete %@?": "Supprimer %@ ?"
+```
+
+See the [translation style guide](docs/STYLE_GUIDE.md) for additional writing advice.
+
+## Language file names
+
+The letters in a filename identify the language:
+
+- `de.json` — German
+- `fil.json` — Filipino
+- `pt-BR.json` — Portuguese used in Brazil
+- `zh-Hans.json` — Simplified Chinese
+
+You do not need to understand these codes to contribute. If you are unsure which file is
+right for you, open an issue and ask.
+
+## Reviews
+
+Translation pull requests are reviewed by maintainers and, whenever possible, another
+fluent speaker. Reviewers may suggest changes for meaning, tone, consistency, or limited
+space in the ARAS interface.
+
+Please be patient and respectful when speakers prefer different words or regional usage.
+Our [Code of Conduct](CODE_OF_CONDUCT.md) applies to all discussions and reviews.
+
+More details are available in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Community files
+
+- `README.md` — how to start helping
+- `CONTRIBUTING.md` — how contributions and reviews work
+- `CODE_OF_CONDUCT.md` — community expectations
+- `docs/STYLE_GUIDE.md` — writing and translation advice
+- `LICENSE` — permission to use and share these translations
+- `<language>.json` — the translations used by ARAS
+
+## License
+
+Community translation files and documentation in this repository are shared under the
+[MIT License](LICENSE). By contributing, you agree that your translation can be used and
+shared under that license.
+
+ARAS and its logo remain the property of their respective owner. This translation license
+does not grant permission to use ARAS branding or distribute the ARAS application.
