@@ -2,6 +2,9 @@
 
 This checklist is for maintainers and fluent community reviewers.
 
+> [!TIP]
+> Localized versions of this checklist are available in each language folder under [`locales/`](../README.md#️-community-language-directory).
+
 ## Language review
 
 - [ ] The translation preserves the meaning of the English text.
@@ -20,4 +23,3 @@ This checklist is for maintainers and fluent community reviewers.
 - [ ] Product and technical names remain accurate.
 - [ ] No advertising, links, personal information, or unrelated text was added.
 - [ ] Machine-assisted text was checked by a fluent speaker.
-

@@ -1,5 +1,8 @@
 # ARAS Translation Style Guide
 
+> [!TIP]
+> Localized versions of this style guide are available in each language folder under [`locales/`](../README.md#️-community-language-directory).
+
 ## Write for people, not dictionaries
 
 Translate the intended action or message naturally. Use the vocabulary people expect in
