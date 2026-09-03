@@ -108,6 +108,17 @@ More details are available in [CONTRIBUTING.md](CONTRIBUTING.md).
 - `LICENSE` — permission to use and share these translations
 - `<language>.json` — the translations used by ARAS
 
+## Translating the Help Center
+
+The offline guide is maintained in the repository's top-level `Help/` directory. English
+pages under `Help/en/` are the canonical source. To translate a page, create the matching
+filename under a directory whose name matches this language catalog, for example
+`Help/fil/input.md`. A translation can be contributed one page at a time; ARAS shows the
+English page whenever that locale has not translated it yet.
+
+Preserve Markdown links and `aras-help://` action links exactly. Help accepts only the safe
+actions declared by `Help/manifest.json`, and ordinary external links must use HTTPS.
+
 ## License
 
 Community translation files and documentation in this repository are shared under the
